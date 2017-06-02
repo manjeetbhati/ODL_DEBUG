@@ -1,0 +1,24 @@
+9ff6b60a-510b-4d65-ba05-1debc13c26f7
+    Manager "tcp:192.168.0.3:6640"
+        is_connected: true
+    Manager "ptcp:6641:127.0.0.1"
+        is_connected: true
+    Bridge br-int
+        Controller "tcp:192.168.0.3:6653"
+            is_connected: true
+        fail_mode: secure
+        Port "tape208967c-19"
+            Interface "tape208967c-19"
+        Port "tap87ce4e93-3b"
+            Interface "tap87ce4e93-3b"
+                type: internal
+        Port veth-pub-int
+            Interface veth-pub-int
+        Port br-int
+            Interface br-int
+                type: internal
+    Bridge br-ex
+        Port br-ex
+            Interface br-ex
+                type: internal
+    ovs_version: "2.6.1"
