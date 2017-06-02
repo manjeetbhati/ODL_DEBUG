@@ -1,0 +1,15 @@
+_uuid               : 9ff6b60a-510b-4d65-ba05-1debc13c26f7
+bridges             : [040f38e0-fc85-4ae1-aa2f-790298fde6b7, e4ad4b4d-7535-4d89-ba56-5a4a86ced1e0]
+cur_cfg             : 25
+datapath_types      : [netdev, system]
+db_version          : "7.14.0"
+external_ids        : {hostname=localhost, "odl_os_hostconfig_config_odl_l2"="{\"allowed_network_types\": [\"local\", \"vlan\", \"vxlan\", \"gre\"], \"bridge_mappings\": {\"public\": \"veth-pub-int\"}, \"datapath_type\": \"system\", \"supported_vnic_types\": [{\"vif_type\": \"ovs\", \"vnic_type\": \"normal\", \"vif_details\": {\"support_vhost_user\": false, \"has_datapath_type_netdev\": false, \"uuid\": \"9ff6b60a-510b-4d65-ba05-1debc13c26f7\", \"host_addresses\": [\"netodl\"]}}]}", odl_os_hostconfig_hostid=netodl, system-id="30f7a647-5822-4f34-ac9f-3628d9317a1e"}
+iface_types         : [geneve, gre, internal, ipsec_gre, lisp, patch, stt, system, tap, vxlan]
+manager_options     : [4813de52-8948-4f13-9455-07de8b8ac2a5, 6d50a519-ec98-4370-be07-bcf0021f829e]
+next_cfg            : 25
+other_config        : {local_ip="192.168.0.3", provider_mappings="public:veth-pub-int"}
+ovs_version         : "2.6.1"
+ssl                 : []
+statistics          : {}
+system_type         : centos
+system_version      : "7"

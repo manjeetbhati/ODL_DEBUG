@@ -1,0 +1,11 @@
+OFPST_GROUP reply (OF1.3) (xid=0x2):
+ group_id=210002,duration=1447915.486s,ref_count=1,packet_count=49,byte_count=5778,bucket0:packet_count=49,byte_count=5778
+ group_id=210001,duration=1447915.789s,ref_count=2,packet_count=10,byte_count=1128,bucket0:packet_count=10,byte_count=1128,bucket1:packet_count=10,byte_count=1128
+ group_id=210004,duration=1447899.359s,ref_count=1,packet_count=0,byte_count=0,bucket0:packet_count=0,byte_count=0,bucket1:packet_count=0,byte_count=0
+ group_id=225000,duration=1447891.358s,ref_count=1,packet_count=0,byte_count=0,bucket0:packet_count=0,byte_count=0
+ group_id=150002,duration=72058.004s,ref_count=3,packet_count=6,byte_count=588,bucket0:packet_count=6,byte_count=588
+ group_id=150000,duration=1447895.177s,ref_count=3,packet_count=0,byte_count=0,bucket0:packet_count=0,byte_count=0
+ group_id=150003,duration=72058.004s,ref_count=3,packet_count=0,byte_count=0,bucket0:packet_count=0,byte_count=0
+ group_id=5000,duration=1447981.345s,ref_count=1,packet_count=11,byte_count=462,bucket0:packet_count=11,byte_count=462,bucket1:packet_count=11,byte_count=462,bucket2:packet_count=11,byte_count=462
+ group_id=210003,duration=1447899.672s,ref_count=1,packet_count=8021,byte_count=336882
+ group_id=150001,duration=1447895.171s,ref_count=3,packet_count=0,byte_count=0,bucket0:packet_count=0,byte_count=0
